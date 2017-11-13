@@ -49,12 +49,20 @@
   <ItemGroup>
     <Compile Include="DbCustomContext\CustomContext.cs" />
     <Compile Include="DbCustomContext\DbInitializer.cs" />
+    <Compile Include="DbWork\DbWork.cs" />
+    <Compile Include="Interfaces\IGenericRepo.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Voyage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ClientRepo.cs" />
+    <Compile Include="Repositories\OrderRepo.cs" />
+    <Compile Include="Repositories\RoleRepo.cs" />
+    <Compile Include="Repositories\UserRepo.cs" />
+    <Compile Include="Repositories\VoyageRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
