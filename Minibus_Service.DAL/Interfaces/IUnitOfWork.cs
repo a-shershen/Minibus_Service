@@ -7,7 +7,7 @@ using Minibus_Service.DAL.Models;
 
 namespace Minibus_Service.DAL.Interfaces
 {
-    interface IUnitOfWork:IDisposable
+    public interface IUnitOfWork:IDisposable
     {
         IGenericRepo<Client> ClientRepo { get; }
         IGenericRepo<Order> OrderRepo { get; }
