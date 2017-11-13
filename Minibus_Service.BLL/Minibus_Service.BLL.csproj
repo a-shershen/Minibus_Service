@@ -58,6 +58,10 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Voyage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\AuthenticationService.cs" />
+    <Compile Include="Services\OrderService.cs" />
+    <Compile Include="Services\VoyageService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
